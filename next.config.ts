@@ -1,25 +1,7 @@
-// next.config.ts
-import type { NextConfig } from "next";
-
-function ensureLeadingSlash(path: string) {
-  if (!path || path === "") return "";
-  if (!path.startsWith("/")) {
-    return "/" + path;
-  }
-  return path;
-}
-
-let basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-basePath = ensureLeadingSlash(basePath);
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   reactStrictMode: true,
-  output: "export",
-  images: {
-    unoptimized: true,
-  },
-  basePath,
-  assetPrefix: basePath,
+  devIndicators: false,
 };
 
-export default nextConfig;
+module.exports = nextConfig;
