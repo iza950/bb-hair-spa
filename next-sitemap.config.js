@@ -2,13 +2,5 @@
 module.exports = {
   siteUrl: "https://blossombeauty.pl",
   generateRobotsTxt: true,
-  generateIndexSitemap: true,
-  robotsTxtOptions: {
-    policies: [
-      {
-        userAgent: "*",
-        allow: "/",
-      },
-    ],
-  },
+  sitemapSize: 7000,
 };
