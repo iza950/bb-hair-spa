@@ -1,12 +1,13 @@
 {
-  "name": "bb-hair-spa",
+  "name": "blossombeauty.pl",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
+    "dev": "next dev",
+    "build": "tsc --noEmit && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint:fix": "next lint",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "framer-motion": "^12.5.0",
