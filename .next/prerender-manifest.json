@@ -25,30 +25,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/",
-      "dataRoute": "/index.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/polityka-prywatnosci": {
       "experimentalBypassFor": [
         {
@@ -97,6 +73,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/",
+      "dataRoute": "/index.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/salon": {
       "experimentalBypassFor": [
         {
@@ -125,8 +125,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "51c2cbcaed78279c00edf335801790b4",
-    "previewModeSigningKey": "6c1f1b106ed19b286a8909c7980d57522237f1f48922d848dd7df09433a8d5ab",
-    "previewModeEncryptionKey": "ac45f7c8f83a4d057003b30e61a8435e547f7cdf24ca0d4827b0cffd502efdc8"
+    "previewModeId": "fea2b1c7cf000c682c4b80d82f21951a",
+    "previewModeSigningKey": "3be0018cad84cdb2f9ba3d3447664a939c1df8c0fca287c9907e72f6478a4853",
+    "previewModeEncryptionKey": "d96358a2dc77ec0ae35934841ddae47664a3faedb010592ea7dd033f780b536a"
   }
 }
