@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+a {
+  color: white;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #d1d5db;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
