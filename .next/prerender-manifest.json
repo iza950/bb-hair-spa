@@ -25,7 +25,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/polityka-prywatnosci": {
+    "/": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -38,8 +38,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/polityka-prywatnosci",
-      "dataRoute": "/polityka-prywatnosci.rsc",
+      "srcRoute": "/",
+      "dataRoute": "/index.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -73,7 +73,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/": {
+    "/polityka-prywatnosci": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -86,8 +86,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/",
-      "dataRoute": "/index.rsc",
+      "srcRoute": "/polityka-prywatnosci",
+      "dataRoute": "/polityka-prywatnosci.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -125,8 +125,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "fea2b1c7cf000c682c4b80d82f21951a",
-    "previewModeSigningKey": "3be0018cad84cdb2f9ba3d3447664a939c1df8c0fca287c9907e72f6478a4853",
-    "previewModeEncryptionKey": "d96358a2dc77ec0ae35934841ddae47664a3faedb010592ea7dd033f780b536a"
+    "previewModeId": "73d21233cca06240c3b739d17e3d9b1e",
+    "previewModeSigningKey": "9dffd44cf3721445df6b8b8f3f775b1ed45c493872d9a31edb114758f9fc14c1",
+    "previewModeEncryptionKey": "90768733250b4b12bbc0448f7e99b66a53a5db1c31aeb35fad1161ee8ceef144"
   }
 }

@@ -18,14 +18,6 @@
       "static/chunks/733-db94d19e31915b52.js",
       "static/chunks/app/layout-13d38b35c0ecaa62.js"
     ],
-    "/oferta/page": [
-      "static/chunks/webpack-e27fd69d12c75a0b.js",
-      "static/chunks/4bd1b696-ea8457096315284e.js",
-      "static/chunks/684-ae44709688c5342f.js",
-      "static/chunks/main-app-58330e0608214a83.js",
-      "static/chunks/874-c8eb6436627fc7f1.js",
-      "static/chunks/app/oferta/page-a5ff1f98205224ea.js"
-    ],
     "/kontakt/page": [
       "static/chunks/webpack-e27fd69d12c75a0b.js",
       "static/chunks/4bd1b696-ea8457096315284e.js",
@@ -33,6 +25,14 @@
       "static/chunks/main-app-58330e0608214a83.js",
       "static/chunks/874-c8eb6436627fc7f1.js",
       "static/chunks/app/kontakt/page-ad783eea514f8716.js"
+    ],
+    "/oferta/page": [
+      "static/chunks/webpack-e27fd69d12c75a0b.js",
+      "static/chunks/4bd1b696-ea8457096315284e.js",
+      "static/chunks/684-ae44709688c5342f.js",
+      "static/chunks/main-app-58330e0608214a83.js",
+      "static/chunks/874-c8eb6436627fc7f1.js",
+      "static/chunks/app/oferta/page-a5ff1f98205224ea.js"
     ],
     "/page": [
       "static/chunks/webpack-e27fd69d12c75a0b.js",
@@ -45,13 +45,6 @@
       "static/chunks/353-f644726a6683ce10.js",
       "static/chunks/app/page-3fc7591b2eda5987.js"
     ],
-    "/polityka-prywatnosci/page": [
-      "static/chunks/webpack-e27fd69d12c75a0b.js",
-      "static/chunks/4bd1b696-ea8457096315284e.js",
-      "static/chunks/684-ae44709688c5342f.js",
-      "static/chunks/main-app-58330e0608214a83.js",
-      "static/chunks/app/polityka-prywatnosci/page-fea13a26321abc44.js"
-    ],
     "/salon/page": [
       "static/chunks/webpack-e27fd69d12c75a0b.js",
       "static/chunks/4bd1b696-ea8457096315284e.js",
@@ -61,6 +54,13 @@
       "static/chunks/8e1d74a4-990309bc0d10714b.js",
       "static/chunks/353-f644726a6683ce10.js",
       "static/chunks/app/salon/page-8db26c1923aeb199.js"
+    ],
+    "/polityka-prywatnosci/page": [
+      "static/chunks/webpack-e27fd69d12c75a0b.js",
+      "static/chunks/4bd1b696-ea8457096315284e.js",
+      "static/chunks/684-ae44709688c5342f.js",
+      "static/chunks/main-app-58330e0608214a83.js",
+      "static/chunks/app/polityka-prywatnosci/page-fea13a26321abc44.js"
     ]
   }
 }

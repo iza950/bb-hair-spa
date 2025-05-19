@@ -1,8 +1,8 @@
 {
   "/_not-found/page": "/_not-found",
-  "/oferta/page": "/oferta",
   "/kontakt/page": "/kontakt",
+  "/oferta/page": "/oferta",
   "/page": "/",
-  "/polityka-prywatnosci/page": "/polityka-prywatnosci",
-  "/salon/page": "/salon"
+  "/salon/page": "/salon",
+  "/polityka-prywatnosci/page": "/polityka-prywatnosci"
 }

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://blossombeauty.pl
+
+# Sitemaps
+Sitemap: https://blossombeauty.pl/sitemap.xml
