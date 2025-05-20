@@ -3,13 +3,14 @@ import AboutUs from "../components/sections/AboutUs";
 import Services from "../components/sections/Services";
 import Testimonials from "../components/sections/Testimonials";
 import SocialPostsSection from "../components/sections/SocialMedia";
+import Head from "next/head";
 
 export default function HomePage() {
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-
   return (
     <>
-      <link rel="icon" href={`${basePath}/logo/logob.svg`} />
+      <Head>
+        <link rel="icon" href="/logo/logob.svg" />
+      </Head>
       <HeroSection />
       <AboutUs />
       <Services />

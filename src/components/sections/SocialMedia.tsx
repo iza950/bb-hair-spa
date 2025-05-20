@@ -11,7 +11,6 @@ interface Post {
 }
 
 const SocialPostsSection = () => {
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
   const [posts, setPosts] = useState<Post[]>([]);
 
   useEffect(() => {
@@ -144,7 +143,7 @@ const SocialPostsSection = () => {
                 >
                   <div className="relative overflow-hidden rounded-lg">
                     <img
-                      src={`${basePath}${post.imageUrl}`}
+                      src={post.imageUrl}
                       alt={`${post.source} post`}
                       className="w-full h-auto transform group-hover:scale-105 transition duration-300 ease-in-out"
                     />
@@ -170,7 +169,7 @@ const SocialPostsSection = () => {
                 >
                   <div className="relative overflow-hidden rounded-lg">
                     <img
-                      src={`${basePath}${post.imageUrl}`}
+                      src={post.imageUrl}
                       alt={`${post.source} post`}
                       className="w-full h-auto transform group-hover:scale-105 transition duration-300 ease-in-out"
                     />
