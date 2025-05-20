@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
           <div className="mb-4">
             <Image
-              src="/logo/logoog.png"
+              src="/logoog.png"
               alt="BB Hair Spa Logo"
               width={150}
               height={50}

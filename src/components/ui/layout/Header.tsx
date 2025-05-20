@@ -60,9 +60,9 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center px-4 py-4">
         <Link href="/" className="flex items-center space-x-2">
           {scrolled ? (
-            <Image src="/logo/logob.svg" alt="Logo" width={40} height={40} />
+            <Image src="/logob.svg" alt="Logo" width={40} height={40} />
           ) : (
-            <Image src="/logo/logow.svg" alt="Logo" width={40} height={40} />
+            <Image src="/logow.svg" alt="Logo" width={40} height={40} />
           )}
           <span
             className="text-2xl font-light tracking-wide transition-colors duration-300"

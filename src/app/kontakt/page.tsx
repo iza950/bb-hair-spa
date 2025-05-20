@@ -9,7 +9,7 @@ const KontaktPage = () => {
     <section className="py-20 bg-white text-gray-800">
       <Head>
         <title>BB Hair Spa - Kontakt</title>
-        <link rel="icon" href="/logo/logob.svg" />
+        <link rel="icon" href="/logob.svg" />
       </Head>
 
       <div className="container mx-auto px-4">
