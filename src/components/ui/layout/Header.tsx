@@ -7,7 +7,6 @@ import { usePathname } from "next/navigation";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Header = () => {
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
@@ -43,7 +42,6 @@ const Header = () => {
   const getLinkClasses = (href: string) => {
     let isActive = false;
     if (href === "/#hero") {
-      // Na stronie głównej, pathname to "/" lub "/#hero"
       isActive = pathname === "/" || pathname === "/#hero";
     } else {
       isActive = pathname === href || pathname.startsWith(href + "#");
@@ -62,19 +60,9 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center px-4 py-4">
         <Link href="/" className="flex items-center space-x-2">
           {scrolled ? (
-            <Image
-              src={`${basePath}/logo/logob.svg`}
-              alt="Logo"
-              width={40}
-              height={40}
-            />
+            <Image src="/logo/logob.svg" alt="Logo" width={40} height={40} />
           ) : (
-            <Image
-              src={`${basePath}/logo/logow.svg`}
-              alt="Logo"
-              width={40}
-              height={40}
-            />
+            <Image src="/logo/logow.svg" alt="Logo" width={40} height={40} />
           )}
           <span
             className="text-2xl font-light tracking-wide transition-colors duration-300"

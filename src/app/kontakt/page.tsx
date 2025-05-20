@@ -1,18 +1,22 @@
 "use client";
 
 import React from "react";
+import Head from "next/head";
 import SocialMedia from "../../components/sections/SocialMedia";
 
 const KontaktPage = () => {
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
   return (
     <section className="py-20 bg-white text-gray-800">
-      <div className="container mx-auto px-4">
+      <Head>
         <title>BB Hair Spa - Kontakt</title>
-        <link rel="icon" href={`${basePath}/logo/logob.svg`} />
+        <link rel="icon" href="/logo/logob.svg" />
+      </Head>
+
+      <div className="container mx-auto px-4">
         <h1 className="text-4xl font-light uppercase tracking-wider text-center mb-10">
           Kontakt
         </h1>
+
         <div className="flex flex-col md:flex-row gap-8">
           <div className="w-full md:w-1/2">
             <iframe
@@ -25,6 +29,7 @@ const KontaktPage = () => {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
+
           <div className="w-full md:w-1/2 flex flex-col justify-center">
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">
               Dane kontaktowe
@@ -34,17 +39,14 @@ const KontaktPage = () => {
             </p>
             <p className="text-lg mb-2">
               <strong>Telefon:</strong>{" "}
-              <a
-                href="tel:+48793015386"
-                className="text-black underline"
-                style={{ color: "#000000" }}
-              >
+              <a href="tel:+48793015386" className="text-black underline">
                 +48 793 015 386
               </a>
             </p>
           </div>
         </div>
       </div>
+
       <div className="mt-16"></div>
       <SocialMedia />
     </section>

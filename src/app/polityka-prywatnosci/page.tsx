@@ -1,17 +1,17 @@
 "use client";
 
 import React from "react";
+import Head from "next/head";
 
 const PrivacyPolicyPage = () => {
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-
   return (
     <section className="py-20 bg-gradient-to-r from-white to-gray-100 text-gray-800 min-h-screen">
+      <Head>
+        <title>BB Hair Spa - Polityka Prywatności</title>
+        <link rel="icon" href="/logo/logob.svg" />
+      </Head>
+
       <div className="container mx-auto px-4">
-        <head>
-          <title>BB Hair Spa - Polityka Prywatności</title>
-          <link rel="icon" href={`${basePath}/logo/logob.svg`} />
-        </head>
         <header className="text-center mb-12">
           <h1 className="text-5xl font-light uppercase tracking-wide mb-4">
             Polityka Prywatności

@@ -1,3 +1,7 @@
+"use client";
+
+import React from "react";
+import Head from "next/head";
 import SocialPostsSection from "../../components/sections/SocialMedia";
 
 type Service = {
@@ -117,13 +121,14 @@ const slugify = (str: string) => {
 };
 
 const OfertaPage = () => {
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
   return (
     <section className="bg-[#f9f9f9] text-gray-800 py-16 px-6 md:px-8">
-      <div className="max-w-5xl mx-auto">
+      <Head>
         <title>BB Hair Spa - Oferta</title>
-        <link rel="icon" href={`${basePath}/logo/logob.svg`} />
+        <link rel="icon" href="/logo/logob.svg" />
+      </Head>
 
+      <div className="max-w-5xl mx-auto">
         <h1 className="text-3xl md:text-4xl font-light mb-8 tracking-wide uppercase text-gray-900 text-center">
           Nasza oferta
         </h1>
@@ -179,6 +184,7 @@ const OfertaPage = () => {
           ))}
         </div>
       </div>
+
       <div className="mt-8"></div>
       <SocialPostsSection />
     </section>

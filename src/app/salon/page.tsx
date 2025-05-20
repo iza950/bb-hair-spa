@@ -1,7 +1,6 @@
 "use client";
 
 import Head from "next/head";
-// import SocialPostsSection from "../../components/sections/SocialMedia";
 import Testimonials from "../../components/sections/Testimonials";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -10,7 +9,6 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 
 const SalonPage = () => {
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
   const images = [
     "/images/bb1.jpg",
     "/images/bb2.jpg",
@@ -22,7 +20,7 @@ const SalonPage = () => {
     <section className="py-20 bg-white text-gray-800">
       <Head>
         <title>BB Hair Spa - Salon</title>
-        <link rel="icon" href={`${basePath}/logo/logob.svg`} />
+        <link rel="icon" href="/logo/logob.svg" />
       </Head>
       <div className="container mx-auto px-4 mb-16">
         <h1 className="text-4xl font-light uppercase tracking-wider text-center mb-10">
@@ -44,7 +42,7 @@ const SalonPage = () => {
                 <SwiperSlide key={index} className="flex justify-center">
                   <div className="relative w-full max-w-4xl h-96 flex items-center justify-center overflow-hidden rounded-lg">
                     <img
-                      src={`${basePath}${src}`}
+                      src={src}
                       alt={`Zdjęcie salonu nr ${index + 1}`}
                       className="max-w-full max-h-full object-contain transform transition duration-300 ease-in-out"
                     />
@@ -66,7 +64,6 @@ const SalonPage = () => {
               <a
                 href="tel:+48793015386"
                 className="text-sm text-black hover:underline"
-                style={{ color: "#000000" }}
               >
                 +48 793 015 386
               </a>
