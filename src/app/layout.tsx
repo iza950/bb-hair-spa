@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="pl">
       <Head>
-        <link rel="icon" href="/logo.svg" />
+        <link rel="icon" href="/logob.svg" />
         <meta name="theme-color" content="#000000" />
       </Head>
       <body className="fade-in min-h-screen flex flex-col">

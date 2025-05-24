@@ -9,7 +9,7 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <link rel="icon" href="/logo/logob.svg" />
+        <link rel="icon" href="/logob.svg" />
       </Head>
       <HeroSection />
       <AboutUs />
