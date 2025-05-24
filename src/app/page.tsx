@@ -3,14 +3,10 @@ import AboutUs from "../components/sections/AboutUs";
 import Services from "../components/sections/Services";
 import Testimonials from "../components/sections/Testimonials";
 import SocialPostsSection from "../components/sections/SocialMedia";
-import Head from "next/head";
 
 export default function HomePage() {
   return (
     <>
-      <Head>
-        <link rel="icon" href="/logob.svg" />
-      </Head>
       <HeroSection />
       <AboutUs />
       <Services />
