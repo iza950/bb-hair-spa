@@ -17,7 +17,7 @@ type ServiceCategory = {
 
 const categorizedServices: ServiceCategory[] = [
   {
-    name: "Strzyżenie i modelowanie",
+    name: "Strzyżenie damskie i modelowanie",
     services: [
       { title: "Grzywka", price: "60 zł" },
       {
@@ -40,11 +40,17 @@ const categorizedServices: ServiceCategory[] = [
         details: "konsultacja",
         price: "100 zł",
       },
-      { title: "Fryzura okolicznościowa", price: "200 – 250 zł" },
     ],
   },
   {
-    name: "Koloryzacja włosów",
+    name: "Fale / Loki",
+    services: [
+      { title: "Fale / Loki – Włosy do ramion", price: "200 zł" },
+      { title: "Fale / Loki – Włosy za ramiona", price: "250 zł" },
+    ],
+  },
+  {
+    name: "Koloryzacja jednolita",
     services: [
       {
         title: "Koloryzacja jednolita – Włosy do ramion",
@@ -56,6 +62,11 @@ const categorizedServices: ServiceCategory[] = [
         details: "konsultacja",
         price: "450 zł",
       },
+    ],
+  },
+  {
+    name: "Koloryzacja uzupełniająca / Odrost",
+    services: [
       {
         title: "Odrost – Włosy do ramion",
         details: "konsultacja",
@@ -66,6 +77,11 @@ const categorizedServices: ServiceCategory[] = [
         details: "konsultacja",
         price: "300 zł",
       },
+    ],
+  },
+  {
+    name: "Refleksy",
+    services: [
       {
         title: "Refleksy – Włosy do ramion",
         details: "konsultacja",
@@ -76,6 +92,11 @@ const categorizedServices: ServiceCategory[] = [
         details: "konsultacja",
         price: "480 zł",
       },
+    ],
+  },
+  {
+    name: "Farbowanie odrostu + Refleksy",
+    services: [
       {
         title: "Farbowanie odrostu + Refleksy – Włosy do ramion",
         price: "420 zł",
@@ -84,6 +105,11 @@ const categorizedServices: ServiceCategory[] = [
         title: "Farbowanie odrostu + Refleksy – Włosy za ramiona",
         price: "470 zł",
       },
+    ],
+  },
+  {
+    name: "Tonowanie / Pigmentacja",
+    services: [
       {
         title: "Tonowanie / Pigmentacja – Włosy do ramion",
         details: "konsultacja",
@@ -94,6 +120,11 @@ const categorizedServices: ServiceCategory[] = [
         details: "konsultacja",
         price: "250 zł",
       },
+    ],
+  },
+  {
+    name: "Baleyage / AirTouch",
+    services: [
       {
         title: "Baleyage / Alrtouch – Włosy do ramion",
         details: "konsultacja",
@@ -144,18 +175,16 @@ const categorizedServices: ServiceCategory[] = [
         title: "Zabieg trychologiczny – Infuzja – Włosy za ramiona",
         price: "270 zł",
       },
+    ],
+  },
+  {
+    name: "Dodatki do usługi",
+    services: [
       { title: "Peeling trychologiczny – dodatek do usługi", price: "70 zł" },
       {
         title: "Infuzja tlenowa z keratyną – dodatek do usługi",
         price: "70 zł",
       },
-    ],
-  },
-  {
-    name: "Stylizacja dodatkowa",
-    services: [
-      { title: "Fale / Loki – Włosy do ramion", price: "200 zł" },
-      { title: "Fale / Loki – Włosy za ramiona", price: "250 zł" },
       { title: "Fale / Loki – dodatek do usługi", price: "100 zł" },
     ],
   },
@@ -228,7 +257,7 @@ const OfertaPage = () => {
                     </div>
                     <div className="mt-4 md:mt-0 md:text-right">
                       <a
-                        href="https://booksy.com"
+                        href="https://booksy.com/pl-pl/252493_bb-hair-spa_fryzjer_23280_lodz#ba_s=sr_1"
                         className="inline-block bg-gray-900 text-white text-sm font-medium px-6 py-2 rounded-full hover:bg-gray-700 transition-colors duration-200"
                       >
                         Umów wizytę

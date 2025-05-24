@@ -123,7 +123,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                href="https://booksy.com"
+                href="https://booksy.com/pl-pl/252493_bb-hair-spa_fryzjer_23280_lodz#ba_s=sr_1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={reservationButtonClasses}
